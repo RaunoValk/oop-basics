@@ -31,5 +31,9 @@ class School{
             course.addGrade(student, grade)
         } 
     } 
+
+    getStudentsOrderedByAverageGrade() {
+        return [...this.students].sort((a, b) => b.getAverageGrades() - a.getAverageGrades());
+    }
 } 
-module.exports = School
+module.exports = School 

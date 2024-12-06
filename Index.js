@@ -54,14 +54,15 @@ console.log(student3.getGrades().length) // 2
 
 console.log(student3.getGrades())  
 console.log(course1.getGrades())  
-/*
+
+
 console.log("Students ordered by average grade:")
 console.log("Student - avg grade")
 console.log("-".repeat(30))
 console.log(school.getStudentsOrderedByAverageGrade())
 console.log("-".repeat(30))
 school.getStudentsOrderedByAverageGrade().forEach((student) => {
-    console.log(student.name, student.getAverageGrade())
+console.log(student.name, student.getAverageGrades())
 }) 
         
 console.log()
@@ -69,4 +70,4 @@ console.log("Course average grades")
 school.getCourses().forEach((course) => {
     console.log(course.name, course.getAverageGrade())
 }) 
-    */
+
